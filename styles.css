@@ -54,6 +54,12 @@ body {
     padding: 0; 
     display: block; 
 }
+.izquierda ul, .derecha ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
 
 .izquierda p {
     line-height: 1; 
@@ -88,7 +94,29 @@ body {
     height: 30px;
 }
 
-.izquierda ul, .derecha ul {
-    list-style: none;
-    padding: 0;
+
+.picc {
+    width: 20px;
+    height: 20px;
+}
+
+.icon {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 23px;
+    height: 23px;
+}
+
+.redes a {
+    text-decoration: none; 
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header p {
+    font-size: 20px;
+    margin: 3px;
 }
