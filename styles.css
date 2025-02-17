@@ -1,0 +1,94 @@
+/* Estilo global */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('assets/bg.jpg') no-repeat center center/cover;
+}
+
+/* Contenedor principal */
+.container {
+    width: 1300px;  
+    height: 700px;
+    background: url('assets/container.png') no-repeat center center/contain;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+
+.contenido {
+    width: 30%; 
+    height: 30%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 41%;
+}
+
+/* Columnas dentro del container */
+.columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Columna izquierda */
+.izquierda {
+    width: 32%;
+    gap: 0px;
+    padding: 5px;
+    text-align: center;
+  
+}
+
+.izquierda img,
+.izquierda p {
+    margin: 5px; 
+    padding: 0; 
+    display: block; 
+}
+
+.izquierda p {
+    line-height: 1; 
+}
+
+/* Columna derecha */
+.derecha {
+    width: 68%;
+    text-align: left;
+    
+}
+
+.arrietty {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.ardillina {
+    width: 40px;
+    height: 40px;
+}
+
+.castañina {
+    width: 30px;
+    height: 30px;
+}
+
+.ciervinu {
+    width: 30px;
+    height: 30px;
+}
+
+.izquierda ul, .derecha ul {
+    list-style: none;
+    padding: 0;
+}
