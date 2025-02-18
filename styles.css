@@ -1,4 +1,11 @@
-/* Estilo global */
+
+@font-face {
+    font-family: "Script MT Bold";
+    src: url("assets/fonts/script-mt-bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,14 +13,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('assets/bg.jpg') no-repeat center center/cover;
+    background: url('assets/imgs/bg.jpg') no-repeat center center/cover;
+    font-family: "Script MT Bold", cursive;
+    color: rgb(94, 53, 0)
 }
 
-/* Contenedor principal */
 .container {
     width: 1300px;  
     height: 700px;
-    background: url('assets/container.png') no-repeat center center/contain;
+    background: url('assets/imgs/container.png') no-repeat center center/contain;
     background-size: contain;
     display: flex;
     justify-content: center;
@@ -22,8 +30,9 @@ body {
    
 }
 
+/* Recuadro dentro del container */
 .contenido {
-    width: 30%; 
+    width: 35%; 
     height: 30%; 
     display: flex;
     justify-content: space-between;
@@ -39,12 +48,12 @@ body {
     align-items: center;
 }
 
-/* Columna izquierda */
 .izquierda {
     width: 32%;
     gap: 0px;
     padding: 5px;
     text-align: center;
+    font-size: 19px;
   
 }
 
@@ -65,11 +74,10 @@ body {
     line-height: 1; 
 }
 
-/* Columna derecha */
 .derecha {
     width: 68%;
     text-align: left;
-    
+    font-size: 19px;
 }
 
 .arrietty {
@@ -96,8 +104,8 @@ body {
 
 
 .picc {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 
 .icon {
@@ -114,9 +122,15 @@ body {
 .header {
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 
 .header p {
-    font-size: 20px;
+    font-size: 22px;
     margin: 3px;
+}
+
+.list-icon {
+    width: 18px;
+    height: 18px;
 }
