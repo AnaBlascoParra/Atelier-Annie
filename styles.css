@@ -142,5 +142,19 @@ body {
     position: absolute;
     right: 11%;
     top: 30%;
+    display: none;
+}
 
+.click-region {
+    position: absolute;
+    left: 1080px;
+    top: 255px;  
+    width: 120px; 
+    height: 40px; 
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.click-region:hover {
+    transform: scale(1.2);
 }
