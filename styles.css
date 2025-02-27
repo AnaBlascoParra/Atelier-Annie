@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: "Script MT Bold";
-    src: url("assets/fonts/script-mt-bold.ttf") format("truetype");
+    src: url("assets/fonts/script-mt-bold.TTF") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
